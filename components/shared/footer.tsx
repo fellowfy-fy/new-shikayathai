@@ -1,11 +1,10 @@
 import React from "react";
-// import logo from "../../assets/logo.svg";
 
 export const Footer = () => {
   return (
     <footer className="bg-[#001A45] text-white p-5 text-sm w-full flex flex-col items-center justify-between mt-4">
       <div className="flex items-center justify-center text-[rgba(255,255,255,0.5)]">
-        {/* <img src={logo} alt="Shikayahai Logo" className="mr-2.5" /> */}
+        <img src="/logo.svg" alt="Shikayahai Logo" className="mr-2.5" />
         <p className="font-bold text-lg m-0">Shikayahai</p>
       </div>
       <div className="flex justify-between items-center w-full mt-4 md:flex-row">
